@@ -1,0 +1,24 @@
+{
+  "name": "aws-virtual-classroom-platform",
+  "version": "1.0.0",
+  "description": "A scalable cloud-native virtual classroom platform hosted on AWS, enabling online learning through course management, content delivery, student engagement, and real-time monitoring.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShreyaDevarde/aws-virtual-classroom-platform.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ShreyaDevarde/aws-virtual-classroom-platform/issues"
+  },
+  "homepage": "https://github.com/ShreyaDevarde/aws-virtual-classroom-platform#readme"
+}
