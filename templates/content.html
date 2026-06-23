@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block title %}
+Course Content
+{% endblock %}
+
+{% block content %}
+
+<h2 class="mb-4">
+    Course Materials
+</h2>
+
+<div class="card shadow">
+
+    <div class="card-body">
+
+        <h2 class="mb-4">
+    Available Courses
+</h2>
+
+<div class="row">
+
+    {% for course in courses %}
+
+    <div class="col-md-4 mb-4">
+
+        <div class="card shadow h-100">
+
+            <img
+                src="{{ url_for('static',
+                filename=course.image) }}"
+                class="card-img-top"
+                alt="{{ course.name }}">
+
+            <div class="card-body">
+
+                <h5 class="card-title">
+                    {{ course.name }}
+                </h5>
+
+                <p class="card-text">
+                    {{ course.description }}
+                </p>
+
+                <a href="https://aws.amazon.com/certification/certified-cloud-practitioner/"
+                   class="btn btn-primary">
+
+                    Enroll Now
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    {% endfor %}
+
+</div>
+{% endblock %}
