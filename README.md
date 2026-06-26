@@ -288,9 +288,13 @@ Through this project, the following concepts were explored:
 Add screenshots here:
 
 * Home Page
+![alt text](image.png)
 * Registration Page
+![alt text](image-1.png)
 * Login Page
+![alt text](image-2.png)
 * Course Catalog
+![alt text](image-3.png)
 * AWS Architecture Diagram
 
 ---
